@@ -1,0 +1,12 @@
+## 1.0.0 (under development)
+This is the initial version setting up the base system
+
+- `NEW` Basic message event and payload model
+- `NEW` Add message event deserializer
+
+## Legend
+
+- `NEW` means a new feature
+- `CNG` means changed behavior
+- `FIX` means a bugfix or fix of a glitch
+- `REM` means a removed feature
