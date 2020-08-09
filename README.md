@@ -1,5 +1,7 @@
 # DEalog Common library
 
+![Java CI with Maven](https://github.com/DEalog/dealog-common/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 A library that contains common domain models etc.
 
 For more information please see [the DEalog website](https://dealog.info).
