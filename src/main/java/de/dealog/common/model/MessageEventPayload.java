@@ -26,6 +26,12 @@ public class MessageEventPayload {
      * The description
      */
     private String description;
+
+    /**
+     * The geocode geometry as WKT
+     * @see <a href="http://giswiki.org/wiki/Well_Known_Text">http://giswiki.org/wiki/Well_Known_Text</a>
+     */
+    private String geocode;
 }
 
 
