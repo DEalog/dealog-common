@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version setting up the base system
 
+- `NEW` Add geocode field. Expects a geometry polygon as WKT 
 - `NEW` Basic message event and payload model
 - `NEW` Add message event deserializer
 
