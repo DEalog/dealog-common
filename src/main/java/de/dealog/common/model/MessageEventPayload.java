@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.util.Date;
+
 /**
  * The payload contains the data of the message
  */
@@ -26,6 +28,11 @@ public class MessageEventPayload {
      * The description
      */
     private String description;
+
+    /**
+     * The date and time when the message was published in UTC
+     */
+    private Date publishedAt;
 
     /**
      * The geocode geometry as WKT

@@ -13,7 +13,7 @@ public enum MessageEventType {
     /**
      * The message was created within e.g. the backoffice
      */
-    Published,
+    Created,
 
     /**
      * The message was updated
