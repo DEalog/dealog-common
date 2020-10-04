@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version setting up the base system
 
+- `NEW` Add message event type "Disposed"
 - `CNG` Renamed message event type: Published -> Created
 - `NEW` Add publishedAt field. Timestamp in UTC
 - `NEW` Add geocode field. Expects a geometry polygon as WKT 
