@@ -23,5 +23,11 @@ public enum MessageEventType {
     /**
      * The message is superseded
      */
-    Superseded;
+    Superseded,
+
+    /**
+     * The message is disposed
+     */
+    Disposed;
+    ;
 }
