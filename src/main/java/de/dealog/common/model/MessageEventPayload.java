@@ -38,6 +38,7 @@ public class MessageEventPayload {
      * The geocode geometry as WKT
      * @see <a href="http://giswiki.org/wiki/Well_Known_Text">http://giswiki.org/wiki/Well_Known_Text</a>
      */
+    @ToString.Exclude
     private String geocode;
 }
 
