@@ -35,6 +35,16 @@ public class MessageEventPayload {
     private Date publishedAt;
 
     /**
+     * Amtlicher Regionalschlüssel
+     * 1.–2. Stelle   = Kennzahl des Bundeslandes
+     * 3. Stelle      = Kennzahl des Regierungsbezirks; wenn nicht vorhanden: 0
+     * 4.–5. Stelle   = Kennzahl des Landkreises oder der kreisfreien Stadt
+     * 6.–9. Stelle   = Verbandsschlüssel
+     * 10.–12. Stelle = Gemeindekennzahl
+     */
+    private String ars;
+
+    /**
      * The geocode geometry as WKT
      * @see <a href="http://giswiki.org/wiki/Well_Known_Text">http://giswiki.org/wiki/Well_Known_Text</a>
      */

@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version setting up the base system
 
+- `NEW` Add ars field to message payload
 - 'CNG' Change to Java 11
 - `NEW` Add message event type "Disposed"
 - `CNG` Renamed message event type: Published -> Created
