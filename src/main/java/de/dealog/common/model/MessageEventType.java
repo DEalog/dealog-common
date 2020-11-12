@@ -1,8 +1,11 @@
 package de.dealog.common.model;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
 /**
  * The available message event types
  */
+@RegisterForReflection
 public enum MessageEventType {
 
     /**
