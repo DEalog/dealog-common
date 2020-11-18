@@ -1,6 +1,5 @@
-package de.dealog.common.model;
+package de.dealog.common.messaging.message;
 
-import io.quarkus.runtime.annotations.RegisterForReflection;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +10,6 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-@RegisterForReflection
 public class MessageEvent implements Serializable {
 
     private static final long serialVersionUID = 123L;

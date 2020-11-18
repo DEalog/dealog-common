@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version setting up the base system
 
+- `NEW` Add organization and category field to message payload
 - 'CNG' Raise quarkus version to 1.9.2
 - `NEW` Add ars field to message payload
 - 'CNG' Change to Java 11

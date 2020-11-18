@@ -1,6 +1,6 @@
-package de.dealog.common.serialization;
+package de.dealog.common.messaging.serialization;
 
-import de.dealog.common.model.MessageEvent;
+import de.dealog.common.messaging.message.MessageEvent;
 import io.quarkus.kafka.client.serialization.ObjectMapperDeserializer;
 
 /**
