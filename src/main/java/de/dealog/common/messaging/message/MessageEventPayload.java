@@ -1,6 +1,6 @@
-package de.dealog.common.model;
+package de.dealog.common.messaging.message;
 
-import io.quarkus.runtime.annotations.RegisterForReflection;
+import de.dealog.common.model.Category;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -13,13 +13,22 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-@RegisterForReflection
 public class MessageEventPayload {
 
     /**
      * The unique identifier
      */
     private String identifier;
+
+    /**
+     * The organization
+     */
+    private String organization;
+
+    /**
+     * The category
+     */
+    private Category category;
 
     /**
      * The headline
