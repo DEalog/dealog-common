@@ -1,6 +1,5 @@
 package de.dealog.common.emergency.cap.v1x2;
 
-import de.dealog.common.emergency.cap.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,7 +12,7 @@ import java.util.List;
 
 /**
  * Model of an Alert, according to the Common Alerting Protocol - Version 1.2
- * {@see https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.html}
+ * @see <a href="ttps://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.html">Common Alerting Protocol Version 1.2</a>
  *
  * The container for all component parts of the alert message
  */

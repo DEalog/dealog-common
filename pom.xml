@@ -13,6 +13,7 @@
         <lombok.version>1.18.16</lombok.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
         <maven.compiler.release>11</maven.compiler.release>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <quarkus-kafka-client.version>1.9.2.Final</quarkus-kafka-client.version>
     </properties>
@@ -62,4 +63,10 @@
             <url>https://maven.pkg.github.com/DEalog/dealog-common</url>
         </repository>
     </distributionManagement>
+    <scm>
+        <developerConnection>
+            scm:git:git@github.com:DEalog/dealog-common.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 </project>

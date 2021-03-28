@@ -1,4 +1,4 @@
-package de.dealog.common.emergency.cap;
+package de.dealog.common.emergency.cap.v1x2;
 
 /**
  * The code denoting the appropriate handling of the alert message
@@ -10,7 +10,8 @@ public enum Status {
     Actual,
 
     /**
-     * Actionable only by designated exercise participants; exercise identifier SHOULD appear in <note>
+     * Actionable only by designated exercise participants;
+     * exercise identifier SHOULD appear in {@link de.dealog.common.emergency.cap.v1x2.Alert.Info#note}
      */
     Exercise,
 
