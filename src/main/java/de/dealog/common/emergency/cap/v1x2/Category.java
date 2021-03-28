@@ -1,4 +1,4 @@
-package de.dealog.common.emergency.cap;
+package de.dealog.common.emergency.cap.v1x2;
 
 /**
  * The code denoting the category of the subject event of the alert message
@@ -22,7 +22,7 @@ public enum Category {
     /**
      * Law enforcement, military, homeland and local/private security
      */
-    Securiy,
+    Security,
 
     /**
      * Rescue and recovery,

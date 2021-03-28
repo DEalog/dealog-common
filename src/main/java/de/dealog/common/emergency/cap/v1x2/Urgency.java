@@ -1,4 +1,4 @@
-package de.dealog.common.emergency.cap;
+package de.dealog.common.emergency.cap.v1x2;
 
 /**
  * The code denoting the urgency of the subject event of the alert message

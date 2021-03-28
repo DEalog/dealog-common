@@ -19,7 +19,7 @@ public enum Category {
     /**
      * Law enforcement, military, homeland and local/private security
      */
-    Securiy,
+    Security,
 
     /**
      * Rescue and recovery,
