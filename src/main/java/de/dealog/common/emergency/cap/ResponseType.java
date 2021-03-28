@@ -1,4 +1,4 @@
-package de.dealog.cap.model;
+package de.dealog.common.emergency.cap;
 
 /**
  * The code denoting the type of action recommended for the target audience

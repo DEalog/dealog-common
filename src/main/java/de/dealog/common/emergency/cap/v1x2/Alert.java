@@ -1,5 +1,6 @@
-package de.dealog.cap.model;
+package de.dealog.common.emergency.cap.v1x2;
 
+import de.dealog.common.emergency.cap.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -11,13 +12,15 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Model of the Common Alerting Protocol Version 1.2
+ * Model of an Alert, according to the Common Alerting Protocol - Version 1.2
  * {@see https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.html}
+ *
+ * The container for all component parts of the alert message
  */
 @Getter
 @Setter
 @NoArgsConstructor
-public class Cap {
+public class Alert {
 
     /**
      * The identifier of the alert message
@@ -197,7 +200,7 @@ public class Cap {
         /**
          * A system-specific additional parameter associated with the alert message
          */
-        private List<Cap.Parameter> parameter;
+        private List<Alert.Parameter> parameter;
 
         private List<Resource> resource;
 
@@ -229,7 +232,7 @@ public class Cap {
             /**
              * The geographic code delineating the affected area of the alert message
              */
-            private List<Cap.Parameter> geocode;
+            private List<Alert.Parameter> geocode;
 
             /**
              * The specific or minimum altitude of the affected area of the alert message
