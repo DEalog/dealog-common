@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version setting up the base system
 
+- `FIX` Change group listings to type String
 - `NEW` Add an unsupported converter exception
 - `NEW` Add scm information; add property to skip javadoc generation
 - `CNG` Move enums to cap version 1.2
