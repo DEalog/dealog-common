@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Model of an Alert, according to the Common Alerting Protocol - Version 1.2
- * @see <a href="ttps://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.html">Common Alerting Protocol Version 1.2</a>
+ * @see <a href="https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.html">Common Alerting Protocol Version 1.2</a>
  *
  * The container for all component parts of the alert message
  */
@@ -69,8 +69,10 @@ public class Alert {
 
     /**
      * The group listing of intended recipients of the alert message
+     *
+     * Multiple space-delimited addresses MAY be included.  Addresses including whitespace MUST be enclosed in double-quotes.
      */
-    private List<String> addresses;
+    private String addresses;
 
     /**
      * The code denoting the special handling of the alert message
@@ -84,13 +86,17 @@ public class Alert {
 
     /**
      * The group listing identifying earlier message(s) referenced by the alert message
+     *
+     * If multiple messages are referenced, they SHALL be separated by whitespace.
      */
-    private List<String> references;
+    private String references;
 
     /**
      * The group listing naming the referent incident(s) of the alert message
+     *
+     * If multiple incident identifiers are referenced, they SHALL be separated by whitespace.  Incident names including whitespace SHALL be surrounded by double-quotes.
      */
-    private List<String> incidents;
+    private String incidents;
 
     private List<Info> info;
 
